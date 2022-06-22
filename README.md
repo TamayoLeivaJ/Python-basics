@@ -15,7 +15,18 @@ You can use the type() function to inspect the type of a value or a variable.
 
 List: a list is a compound data type, a collection of values that can contain any data type, and different data types including other lists.
 
-### List Slicing 
+### Subsetting List
 
-Syntax [Start     :      End]  
-        Inclusive   Exclusive
+Python use zero-indexing (all list start at zero). You can subset a list as follow:
+
+#### List Slicing 
+
+Syntax [Start(Inclusive):End(Exclusive)]
+
+Example
+
+list = [a, b, c, d, e, f, g]
+
+list[:4]    = It will return from index 0 to 3 (i.e., a, b, c, d)
+list[2:]    = It will return from index 2 to 7 (i.e., c, d, e, f, g)
+list[2:4]   = It will return from index 2 to 3 (i.e., c, d)
