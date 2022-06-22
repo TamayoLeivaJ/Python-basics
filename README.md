@@ -17,16 +17,23 @@ List: a list is a compound data type, a collection of values that can contain an
 
 ### Subsetting List
 
-Python use zero-indexing (all list start at zero). You can subset a list as follow:
+Python use zero-indexing (all list start at zero). You can subset a list as follow:<br>
+
+Example<br>
+
+list = [a, b, c, d, e, f, g]<br><br>
+
+list[0]   = It will return from index 0 (i.e., a)<br>
+list[3]   = It will return from index 3 (i.e., d)<br>
+list[5]   = It will return from index 5 (i.e., f)<br>
+list[-1]   = It will return from index 5 (i.e., f)<br>
+list[-3]   = It will return from index 4 (i.e., e)<br>
 
 #### List Slicing 
 
-Syntax [Start(Inclusive):End(Exclusive)]
+Syntax:<br> 
+list[ Start(Inclusive):End(Exclusive) ]
 
-Example
-
-list = [a, b, c, d, e, f, g]
-
-list[:4]    = It will return from index 0 to 3 (i.e., a, b, c, d)
-list[2:]    = It will return from index 2 to 7 (i.e., c, d, e, f, g)
-list[2:4]   = It will return from index 2 to 3 (i.e., c, d)
+list[:4]   = It will return from index 0 to 3 (i.e., a, b, c, d)<br>
+list[2:]   = It will return from index 2 to 7 (i.e., c, d, e, f, g)<br>
+list[2:4]  = It will return from index 2 to 3 (i.e., c, d)<br>
