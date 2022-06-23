@@ -23,17 +23,28 @@ Example<br>
 
 list = [a, b, c, d, e, f, g]<br><br>
 
-list[0]   = It will return from index 0 (i.e., a)<br>
-list[3]   = It will return from index 3 (i.e., d)<br>
-list[5]   = It will return from index 5 (i.e., f)<br>
-list[-1]   = It will return from index 5 (i.e., f)<br>
-list[-3]   = It will return from index 4 (i.e., e)<br>
+| Command  | Explanation                  | Output |
+|----------|------------------------------|--------|
+| list[0]  | It will return from index 0  | 'a'    |
+| list[3]  | It will return from index 3  | 'd'    |
+| list[4]  | It will return from index 4  | 'e'    |
+| list[-3] | It will return from index 4  | 'e'    |
+| list[5]  | It will return from index 5  | 'f'    |
+| list[-1] | It will return from index 5  | 'f'    |
 
 #### List Slicing 
 
-Syntax:<br> 
-list[ Start(Inclusive):End(Exclusive) ]
+> **Warning**
+> The syntax for list slicing in Python is interpreted as follows:<br> 
+> list[ Start(Inclusive):End(Exclusive) ]<br>
 
-list[:4]   = It will return from index 0 to 3 (i.e., a, b, c, d)<br>
-list[2:]   = It will return from index 2 to 7 (i.e., c, d, e, f, g)<br>
-list[2:4]  = It will return from index 2 to 3 (i.e., c, d)<br>
+| Command     | Explanation                      | Output                              |
+|-------------|----------------------------------|-------------------------------------|
+| list        | It will return from index 0 to 6 | ['a', 'b', 'c', 'd', 'e', 'f', 'g'] |
+| list[:]     | It will return from index 0 to 6 | ['a', 'b', 'c', 'd', 'e', 'f', 'g'] |
+| list[:4]    | It will return from index 0 to 3 | ['a', 'b', 'c', 'd']                |
+| list[2:]    | It will return from index 2 to 6 | ['c', 'd', 'e', 'f', 'g']           |
+| list[2:4]   | It will return from index 2 to 3 | ['c', 'd']                          |
+| list[-5:-3] | It will return from index 2 to 3 | ['c', 'd']                          |
+| list[3:6]   | It will return from index 3 to 5 | ['d', 'e', 'f']                     |
+| list[-4:-1] | It will return from index 3 to 5 | ['d', 'e', 'f']                     |
