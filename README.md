@@ -18,9 +18,12 @@ List: a list is a compound data type, a collection of values that can contain an
 
 ### Subsetting List
 
-Python use zero-indexing (all list start at zero). You can subset a list as follow:<br>
+> **Note** <br>
+> Python use zero-indexing (all list start at zero). 
 
-Example<br>
+You can subset a list as follow:<br>
+
+Example list<br>
 
 list = [a, b, c, d, e, f, g]<br><br>
 
