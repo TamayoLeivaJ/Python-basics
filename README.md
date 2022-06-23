@@ -35,9 +35,9 @@ list = [a, b, c, d, e, f, g]<br><br>
 #### List Slicing 
 
 > **Warning** <br> 
-> The syntax for list slicing in Python is interpreted as follows:<br> 
-> list[ **Start**(Inclusive):**End**(Exclusive) ]<br>
-> where the **Start** point is included in the output, but the **End** point is excluded.<br>
+> The syntax for list slicing in Python is interpreted as follows:<br><br> 
+> list[ **Start**:**End** ]<br><br>
+> Where the **Start** point is **included** in the output, but the **End** point is **excluded**.<br>
 
 | Command     | Explanation                      | Output                              |
 |-------------|----------------------------------|-------------------------------------|
