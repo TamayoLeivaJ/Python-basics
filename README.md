@@ -2,7 +2,7 @@
 
 ## Python data types
 
-Python is an object-oriented programming (OOP) language, and its standard implementation is written in C.   
+Python is an object-oriented programming (OOP) language, and its standard implementation is written in C. Thus, in Python each object actually refers to a C structure, where information about its value, data type and other relevant details are contained.<br>    
 
 | Type | Description | Data <br>Type | Example | Conversion <br>function |
 |---|---|---|---|---|
