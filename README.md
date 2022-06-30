@@ -20,10 +20,11 @@ In Python a list is the standard mutable multi-element container. In Python we c
 Example:<br> 
 
 **Code** <br>
+```
 In[1]  List_misc = [True, "4", 4.5, 4]<br>
 In[2]  [type(i) for i in List_misc]<br>
 Out[1] [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]<br>
-
+```
 
 ### Subsetting List
 
