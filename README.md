@@ -22,10 +22,10 @@ In Python a list is the standard mutable multi-element container. In Python we c
 Example:<br> 
 
 **Code** <br>
-```
-In[1]  List_misc = [True, "4", 4.5, 4]<br>
-In[2]  [type(i) for i in List_misc]<br>
-Out[1] [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]
+```python
+In[1]:  List_misc = [True, "4", 4.5, 4]<br>
+In[2]:  [type(i) for i in List_misc]<br>
+Out[1]: [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]
 ```
 <br>
 
@@ -39,7 +39,7 @@ You can subset a list as follow:<br>
 Example list<br>
 
 **Code** <br>
-```
+```python
 list = [a, b, c, d, e, f, g]
 ```
 <br>
@@ -85,7 +85,7 @@ To make a subset from a nested list, you must select the index of the list and t
 Example list<br>
 
 **Code** <br>
-```
+```python
 lxl = [["a", "b", "c"], 
        ["d", "e", "f"], 
        ["g", "h", "i"], 
@@ -111,7 +111,7 @@ Lists are pointers to a collection of Python objects, so if the same list of obj
 Example list<br>
 
 **Code** <br>
-```
+```python
 x = ["a", "b", "c", "d"]
 ```
 <br>
