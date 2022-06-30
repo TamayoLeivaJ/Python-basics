@@ -47,6 +47,7 @@ list = [a, b, c, d, e, f, g]<br><br>
 | list[-3] | It will return from index 4  | 'e'    |
 | list[5]  | It will return from index 5  | 'f'    |
 | list[-1] | It will return from index 5  | 'f'    |
+<br>
 
 ### List Slicing 
 
