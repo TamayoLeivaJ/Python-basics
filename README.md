@@ -1,14 +1,5 @@
 # Python-basics
 
-#### Table of Content
-
-* Python data types
-* Python list
-  - Subsetting List
-  - Subsetting lists of lists
-  - Inner workings of lists
-* Python Functions
-
 ## Python data types
 
 Python is an object-oriented programming (OOP) language, and its standard implementation is written in C. Thus, in Python each object actually refers to a C structure, where information about its value, data type and other relevant details are contained.<br>    
@@ -18,7 +9,7 @@ Python is an object-oriented programming (OOP) language, and its standard implem
 | int | integer: a number without a fractional part. | Numeric | 100 | int() |
 | float | floating point: a number that has both an integer <br>and fractional part, separated by a point. | Numeric | 1.1 | float() |
 | str | string: a type to represent text. | Text | string, text | str() |
-| bool | boolean: a type to represent logical values.<br>Can only be True or False (==**Capital are important**==) | Boolean | True; False | bool() |
+| bool | boolean: a type to represent logical values.<br>Can only be True or False (**Capital are important**) | Boolean | True; False | bool() |
 <br>
 
 > **Note** <br>
