@@ -131,3 +131,5 @@ x = ["a", "b", "c", "d"]
 | x_1 = x + ["e", "f"] | Add    | Add items to a list                    | ['a', 'b', 'c', 'd', 'e', 'f']           |
 | x2 = x + x           | Add    | Add a list of items to a list          | ['a', 'b', 'c', 'd', 'a', 'b', 'c', 'd'] |
 <br>
+
+## Python Functions
