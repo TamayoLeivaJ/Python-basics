@@ -27,6 +27,7 @@ In[1]  List_misc = [True, "4", 4.5, 4]<br>
 In[2]  [type(i) for i in List_misc]<br>
 Out[1] [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]
 ```
+<br>
 
 ### Subsetting List
 
@@ -41,6 +42,7 @@ Example list<br>
 ```
 list = [a, b, c, d, e, f, g]
 ```
+<br>
 
 | Command  | Explanation                  | Output |
 |----------|------------------------------|--------|
@@ -89,6 +91,7 @@ lxl = [["a", "b", "c"],
        ["g", "h", "i"], 
        ["j", "k", "l"]]
 ```
+<br>
 
 | Command    | Explanation                                           | Output                                 |
 |------------|-------------------------------------------------------|----------------------------------------|
@@ -111,6 +114,7 @@ Example list<br>
 ```
 x = ["a", "b", "c", "d"]
 ```
+<br>
 
 | Command              | Action | Explanation                            | Output                                   |
 |----------------------|--------|----------------------------------------|------------------------------------------|
