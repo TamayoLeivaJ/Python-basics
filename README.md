@@ -2,6 +2,8 @@
 
 ## Python data types
 
+Python is an object-oriented programming (OOP) language, and its standard implementation is written in C.   
+
 | Type | Description | Data <br>Type | Example | Conversion <br>function |
 |---|---|---|---|---|
 | int | integer: a number without a fractional part. | Numeric | 100 | int() |
@@ -23,7 +25,7 @@ Example:<br>
 ```
 In[1]  List_misc = [True, "4", 4.5, 4]<br>
 In[2]  [type(i) for i in List_misc]<br>
-Out[1] [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]<br>
+Out[1] [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]
 ```
 
 ### Subsetting List
