@@ -2,14 +2,14 @@
 
 #### Table of Content
 
-* [Python data types] (#data-types)
-* [Python list] (#list)
-  - [Subsetting List] (#list1.1)
-  - [Subsetting lists of lists] (#list1.2)
-  - [Inner workings of lists] (#list1.3)
-* [Python Functions] (#functions)
+* [Python data types](#data-types)
+* [Python list](#list)
+  - [Subsetting List](#list1.1)
+  - [Subsetting lists of lists](#list1.2)
+  - [Inner workings of lists](#list1.3)
+* [Python Functions](#functions)
 
-## Python data types {#data-types}
+## Python data types{#data-types}
 
 Python is an object-oriented programming (OOP) language, and its standard implementation is written in C. Thus, in Python each object actually refers to a C structure, where information about its value, data type and other relevant details are contained.<br>    
 
@@ -24,7 +24,7 @@ Python is an object-oriented programming (OOP) language, and its standard implem
 > **Note** <br>
 > You can use the type() function to inspect the type of a value or a variable.
 
-## Python list {#list}
+## Python list{#list}
 
 In Python a list is the standard mutable multi-element container. In Python we can create a list with heterogeneous type elements (i.e., bool, str, float, int). Thus, a list is a composite data type, a collection of values that can contain any data type, and different data types, including other lists. To achieve this flexible structure, in Python each element of a list contains its own information, such as data type and others. Thus, each element within a list is a full Python object. The Python list is in fact a pointer that guides to a block of pointers, each of which references a full Python object such as a Python integer, or Python str.<br>
 
@@ -63,7 +63,7 @@ list = [a, b, c, d, e, f, g]
 | list[-1] | It will return from index 5  | 'f'    |
 <br>
 
-### List Slicing {#list1.1}
+### List Slicing{#list1.1}
 
 > **Warning** <br> 
 > The syntax for list slicing in Python is interpreted as follows:<br> 
@@ -84,7 +84,7 @@ list = [a, b, c, d, e, f, g]
 | list[-4:-1] | It will return from index 3 to 5 | ['d', 'e', 'f']                     |
 <br>
 
-### Subsetting lists of lists {#list1.2}
+### Subsetting lists of lists{#list1.2}
 
 To make a subset from a nested list, you must select the index of the list and then select the index of the list items, as in the following codes.<br><br> 
 
@@ -113,7 +113,7 @@ lxl = [["a", "b", "c"],
 | lxl[2][:2] | It will return from index 0 to 1 from list index 2    | ['g', 'h']                             |
 <br>
 
-### Inner workings of lists {#list1.3}
+### Inner workings of lists{#list1.3}
 
 Lists are pointers to a collection of Python objects, so if the same list of objects is referenced from two separate lists, modifying one of the lists will modify the items in both lists. To avoid this behavior, it is necessary to create an explicit copy of the list items. You can create explicit copies of a list using the following list() or [:] syntax. <br>
 
@@ -141,4 +141,4 @@ x = ["a", "b", "c", "d"]
 | x2 = x + x           | Add    | Add a list of items to a list          | ['a', 'b', 'c', 'd', 'a', 'b', 'c', 'd'] |
 <br>
 
-## Python Functions {#functions}
+## Python Functions{#functions}
