@@ -37,7 +37,10 @@ You can subset a list as follow:<br>
 
 Example list<br>
 
-list = [a, b, c, d, e, f, g]<br><br>
+**Code** <br>
+```
+list = [a, b, c, d, e, f, g]
+```
 
 | Command  | Explanation                  | Output |
 |----------|------------------------------|--------|
@@ -79,7 +82,13 @@ To make a subset from a nested list, you must select the index of the list and t
 
 Example list<br>
 
-lxl = [["a", "b", "c"], ["d", "e", "f"], ["g", "h", "i"], ["j", "k", "l"]]<br>
+**Code** <br>
+```
+lxl = [["a", "b", "c"], 
+       ["d", "e", "f"], 
+       ["g", "h", "i"], 
+       ["j", "k", "l"]]
+```
 
 | Command    | Explanation                                           | Output                                 |
 |------------|-------------------------------------------------------|----------------------------------------|
@@ -98,7 +107,10 @@ Lists are pointers to a collection of Python objects, so if the same list of obj
 
 Example list<br>
 
-x = ["a", "b", "c", "d"]<br>
+**Code** <br>
+```
+x = ["a", "b", "c", "d"]
+```
 
 | Command              | Action | Explanation                            | Output                                   |
 |----------------------|--------|----------------------------------------|------------------------------------------|
