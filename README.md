@@ -2,12 +2,12 @@
 
 #### Table of Content
 
-* [Python data types](#data-types)
-* [Python list](#list)
-  - [Subsetting List](#list1.1)
-  - [Subsetting lists of lists](#list1.2)
-  - [Inner workings of lists](#list1.3)
-* [Python Functions](#functions)
+* [Python data types] (#data-types)
+* [Python list] (#list)
+  - [Subsetting List] (#list1.1)
+  - [Subsetting lists of lists] (#list1.2)
+  - [Inner workings of lists] (#list1.3)
+* [Python Functions] (#functions)
 
 ## Python data types {#data-types}
 
