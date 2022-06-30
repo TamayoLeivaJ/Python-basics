@@ -8,6 +8,7 @@
 | float | floating point: a number that has both an integer <br>and fractional part, separated by a point. | Numeric | 1.1 | float() |
 | str | string: a type to represent text. | Text | string, text | str() |
 | bool | boolean: a type to represent logical values.<br>Can only be True or False (**Capital are important**) | Boolean | True; False | bool() |
+<br>
 
 > **Note** <br>
 > You can use the type() function to inspect the type of a value or a variable.
@@ -18,9 +19,10 @@ In Python a list is the standard mutable multi-element container. In Python we c
 
 Example:<br> 
 
-List_misc = [True, "4", 4.5, 4]<br>
-[type(i) for i in List_misc]<br>
-[<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]<br>
+**Code** <br>
+In[1]  List_misc = [True, "4", 4.5, 4]<br>
+In[2]  [type(i) for i in List_misc]<br>
+Out[1] [<class 'bool'>, <class 'str'>, <class 'float'>, <class 'int'>]<br>
 
 
 ### Subsetting List
@@ -62,6 +64,7 @@ list = [a, b, c, d, e, f, g]<br><br>
 | list[-5:-3] | It will return from index 2 to 3 | ['c', 'd']                          |
 | list[3:6]   | It will return from index 3 to 5 | ['d', 'e', 'f']                     |
 | list[-4:-1] | It will return from index 3 to 5 | ['d', 'e', 'f']                     |
+<br>
 
 ### Subsetting lists of lists
 
@@ -100,9 +103,11 @@ x = ["a", "b", "c", "d"]<br>
 | del(x[1])            | Delete | Delete item with index 1 from list x   | ['a', 'c', 'd']                          |
 | del x[1]             | Delete | Delete item with index 1 from list x   | ['a', 'c', 'd']                          |
 | del x                | Delete | Remove list x                          | NameError: name 'x' is not defined       |
+| x.clear()            | Delete | Clear list x                           | []                                       |
 | x.pop(1)             | Delete | Delete item with index 1 from list x   | ['a', 'c', 'd']                          |
 | x.remove("c")        | Delete | Delete item "c" from list x            | ['a', 'b', 'd']                          |
 | x.append("e")        | Add    | Add item to a list                     | ['a', 'b', 'c', 'd', 'e']                |
 | x.insert(1, "f")     | Add    | Add item to a list at index position 1 | ['a', 'f', 'b', 'c', 'd', 'e']           |
 | x_1 = x + ["e", "f"] | Add    | Add items to a list                    | ['a', 'b', 'c', 'd', 'e', 'f']           |
 | x2 = x + x           | Add    | Add a list of items to a list          | ['a', 'b', 'c', 'd', 'a', 'b', 'c', 'd'] |
+<br>
