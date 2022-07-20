@@ -297,6 +297,10 @@ pip show numpy
 ## Update package
 pip install --upgrade numpy
 
+```
+<br>
+
+```bash
 # Example in Python3
 ## First install pip ()
 ## Install pip.py
