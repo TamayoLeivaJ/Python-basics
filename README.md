@@ -279,6 +279,44 @@ List of Python built-in functions.<br>
 
 ## Python Install and Import Packages
 
+### Install Packages
+**Bash Code** <br>
+```bash
+# Example in Python2.7
+## First install pip ()
+## Install pip.py
+sudo apt install python-pip
+
+## Then with pip instaled install required packages
+## Install numpy package
+pip install numpy
+
+## Verify packages instalation 
+pip show numpy
+
+## Update package
+pip install --upgrade numpy
+
+# Example in Python3
+## First install pip ()
+## Install pip.py
+sudo apt install python3-pip
+
+## Then with pip instaled install required packages
+## Install numpy package
+pip3 install numpy
+
+## Verify packages instalation 
+pip3 show numpy
+
+## Update package
+pip3 install --upgrade numpy
+
+```
+<br>
+
+### Import Packages
+
 **Python Code** <br>
 ```python
 # General imports
@@ -305,4 +343,4 @@ Numpy package provides<br>
 1. Fast mathematical operations over arrays<br>
 1. Linear Algebra, Fourier Transforms, Random Number Generation<br>
 
-The NumPy array is a new Python type, an alternative to the Python list, that is faster and capable of performing operations on arrays more easily than on lists. The NumPy array comes with its own methods, which may behave differently from the methods of other types. But the NumPy array can only contain values of a single type, while a Python list can contain different types of data.<br>
+The NumPy array is a new Python type, an alternative to the Python list, that is faster and capable of performing operations on arrays more easily than on lists. The NumPy array comes with its own methods, which may behave differently from the methods of other types. But the NumPy array can only contain values of a single type, while a Python list can contain different types of data. If elements of different types are included, Numpy array will transform those elements to end up with an array of homogeneous type, this is also known as **type coercion**. In this type coercion, for example, the bool type value **True** becomes 1, and the bool type value **False** becomes 0, if coerced to a numeric array.<br>
