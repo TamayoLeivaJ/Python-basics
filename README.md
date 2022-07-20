@@ -305,4 +305,4 @@ Numpy package provides<br>
 1. Fast mathematical operations over arrays<br>
 1. Linear Algebra, Fourier Transforms, Random Number Generation<br>
 
-> NumPy array is a new type of Python type object. But it can only contain values of a single type.
+> The NumPy array is a new type of Python-like object, and it comes with its own methods, which may behave differently from the methods of other types. But the NumPy array can only contain values of a single type.
