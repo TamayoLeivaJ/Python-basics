@@ -132,6 +132,100 @@ x = ["a", "b", "c", "d"]
 | x2 = x + x           | Add    | Add a list of items to a list          | ['a', 'b', 'c', 'd', 'a', 'b', 'c', 'd'] |
 <br>
 
-## Python Functions
+## Python Methods
 
-# Python NumPy
+### String Methods
+
+| Method         | Description                                                                                   |
+|----------------|-----------------------------------------------------------------------------------------------|
+| capitalize()   | Converts the first character to upper case                                                    |
+| casefold()     | Converts string into lower case                                                               |
+| center()       | Returns a centered string                                                                     |
+| count()        | Returns the number of times a specified value occurs in a string                              |
+| encode()       | Returns an encoded version of the string                                                      |
+| endswith()     | Returns true if the string ends with the specified value                                      |
+| expandtabs()   | Sets the tab size of the string                                                               |
+| find()         | Searches the string for a specified value and returns the position of where it was found      |
+| format()       | Formats specified values in a string                                                          |
+| format_map()   | Formats specified values in a string                                                          |
+| index()        | Searches the string for a specified value and returns the position of where it was found      |
+| isalnum()      | Returns True if all characters in the string are alphanumeric                                 |
+| isalpha()      | Returns True if all characters in the string are in the alphabet                              |
+| isascii()      | Returns True if all characters in the string are ascii characters                             |
+| isdecimal()    | Returns True if all characters in the string are decimals                                     |
+| isdigit()      | Returns True if all characters in the string are digits                                       |
+| isidentifier() | Returns True if the string is an identifier                                                   |
+| islower()      | Returns True if all characters in the string are lower case                                   |
+| isnumeric()    | Returns True if all characters in the string are numeric                                      |
+| isprintable()  | Returns True if all characters in the string are printable                                    |
+| isspace()      | Returns True if all characters in the string are whitespaces                                  |
+| istitle()      | Returns True if the string follows the rules of a title                                       |
+| isupper()      | Returns True if all characters in the string are upper case                                   |
+| join()         | Converts the elements of an iterable into a string                                            |
+| ljust()        | Returns a left justified version of the string                                                |
+| lower()        | Converts a string into lower case                                                             |
+| lstrip()       | Returns a left trim version of the string                                                     |
+| maketrans()    | Returns a translation table to be used in translations                                        |
+| partition()    | Returns a tuple where the string is parted into three parts                                   |
+| replace()      | Returns a string where a specified value is replaced with a specified value                   |
+| rfind()        | Searches the string for a specified value and returns the last position of where it was found |
+| rindex()       | Searches the string for a specified value and returns the last position of where it was found |
+| rjust()        | Returns a right justified version of the string                                               |
+| rpartition()   | Returns a tuple where the string is parted into three parts                                   |
+| rsplit()       | Splits the string at the specified separator, and returns a list                              |
+| rstrip()       | Returns a right trim version of the string                                                    |
+| split()        | Splits the string at the specified separator, and returns a list                              |
+| splitlines()   | Splits the string at line breaks and returns a list                                           |
+| startswith()   | Returns true if the string starts with the specified value                                    |
+| strip()        | Returns a trimmed version of the string                                                       |
+| swapcase()     | Convert uppercase characters to lowercase and vice versa                                      |
+| title()        | Return a version of the string where each word is titlecased                                  |
+| translate()    | Replace each character in the string using the given translation table                        |
+| upper()        | Return a copy of the string converted to uppercase                                            |
+| zfill()        | Fills a numeric string with zeros on the left, to fill a field of the given width             |
+<br>
+
+### List Methods
+
+| Method    | Description                                                                  |
+|-----------|------------------------------------------------------------------------------|
+| append()  | Adds an element at the end of the list                                       |
+| clear()   | Removes all the elements from the list                                       |
+| copy()    | Returns a copy of the list                                                   |
+| count()   | Returns the number of elements with the specified value                      |
+| extend()  | Add the elements of a list (or any iterable), to the end of the current list |
+| index()   | Returns the index of the first element with the specified value              |
+| insert()  | Adds an element at the specified position                                    |
+| pop()     | Removes the element at the specified position                                |
+| remove()  | Removes the first item with the specified value                              |
+| reverse() | Reverses the order of the list                                               |
+| sort()    | Sorts the list                                                               |
+<br>
+
+## Python Install and Import Packages
+
+**Code** <br>
+```python
+# General imports
+# Import complete numpy package functions
+import numpy
+
+# General imports with local aliases
+# Import complete numpy package functions with an shortcut aliases
+import numpy as np
+
+# Selective import
+# Import solely the array function of the numpy package
+from numpy import array
+
+```
+<br>
+
+# Python Packages
+
+## NumPy 
+
+  Provides<br>
+      1. An array object of arbitrary homogeneous items<br>
+      1. Fast mathematical operations over arrays<br>
+      1. Linear Algebra, Fourier Transforms, Random Number Generation<br>
