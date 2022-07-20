@@ -304,3 +304,5 @@ Numpy package provides<br>
 1. An array object of arbitrary homogeneous items<br>
 1. Fast mathematical operations over arrays<br>
 1. Linear Algebra, Fourier Transforms, Random Number Generation<br>
+
+> NumPy array is a new type of Python type object. But it can only contain values of a single type.
