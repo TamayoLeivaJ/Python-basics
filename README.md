@@ -283,18 +283,20 @@ List of Python built-in functions.<br>
 **Bash Code** <br>
 ```bash
 # Example in Python2.7
-## First install pip ()
+## First install pip (Package Installer for Python)
+## Installation of pip is required once. If you already have pip installed, 
+## you can go to the next step in the list.
 ## Install pip.py
 sudo apt install python-pip
 
-## Then with pip instaled install required packages
+## 2) Then with pip instaled install required packages
 ## Install numpy package
 pip install numpy
 
-## Verify packages instalation 
+## 3) Verify packages instalation 
 pip show numpy
 
-## Update package
+## 4) Update package (if necessary)
 pip install --upgrade numpy
 
 ```
@@ -302,18 +304,20 @@ pip install --upgrade numpy
 
 ```bash
 # Example in Python3
-## First install pip ()
+## First install pip (Package Installer for Python)
+## Installation of pip is required once. If you already have pip installed, 
+## you can go to the next step in the list.
 ## Install pip.py
 sudo apt install python3-pip
 
-## Then with pip instaled install required packages
+## 2) Then with pip instaled install required packages
 ## Install numpy package
 pip3 install numpy
 
-## Verify packages instalation 
+## 3) Verify packages instalation 
 pip3 show numpy
 
-## Update package
+## 4) Update package (if necessary)
 pip3 install --upgrade numpy
 
 ```
