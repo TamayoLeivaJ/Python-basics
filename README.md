@@ -280,13 +280,15 @@ List of Python built-in functions.<br>
 ## Python Install and Import Packages
 
 ### Install Packages
+
+First install pip (Package Installer for Python). Installation of pip is required once. If you already have pip installed, you can go to the next step in the list.<br>
+
 **Bash Code** <br>
+
+#### Instalation in Python2.7
+
 ```bash
-# Example in Python2.7
-## First install pip (Package Installer for Python)
-## Installation of pip is required once. If you already have pip installed, 
-## you can go to the next step in the list.
-## Install pip.py
+## 1) Install pip.py
 sudo apt install python-pip
 
 ## 2) Then with pip instaled install required packages
@@ -302,12 +304,10 @@ pip install --upgrade numpy
 ```
 <br>
 
+#### Instalation in Python3
+
 ```bash
-# Example in Python3
-## First install pip (Package Installer for Python)
-## Installation of pip is required once. If you already have pip installed, 
-## you can go to the next step in the list.
-## Install pip.py
+## 1) Install pip.py
 sudo apt install python3-pip
 
 ## 2) Then with pip instaled install required packages
