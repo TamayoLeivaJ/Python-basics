@@ -283,10 +283,9 @@ List of Python built-in functions.<br>
 
 First install pip (Package Installer for Python). Installation of pip is required once. If you already have pip installed, you can go to the next step in the list.<br>
 
-**Bash Code** <br>
-
 #### Instalation in Python2.7
 
+**Bash Code** <br>
 ```bash
 ## 1) Install pip.py
 sudo apt install python-pip
@@ -302,10 +301,10 @@ pip show numpy
 pip install --upgrade numpy
 
 ```
-<br>
 
 #### Instalation in Python3
 
+**Bash Code** <br>
 ```bash
 ## 1) Install pip.py
 sudo apt install python3-pip
