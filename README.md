@@ -351,3 +351,30 @@ Numpy package provides<br>
 1. Linear Algebra, Fourier Transforms, Random Number Generation<br>
 
 The NumPy array is a new Python type, an alternative to the Python list, that is faster and capable of performing operations on arrays more easily than on lists. The NumPy array comes with its own methods, which may behave differently from the methods of other types. But the NumPy array can only contain values of a single type, while a Python list can contain different types of data. If elements of different types are included, Numpy array will transform those elements to end up with an array of homogeneous type, this is also known as **type coercion**. In this type coercion, for example, the bool type value **True** becomes 1, and the bool type value **False** becomes 0, if coerced to a numeric array.<br>
+
+### Import NumPy Package
+
+**Python Code** <br>
+```python
+# General imports with local aliases
+# Import complete numpy package functions with an shortcut aliases
+import numpy as np
+
+```
+<br>
+
+## Matplotlib
+
+ *matplotlib.pyplot* is a state-based interface to matplotlib. It provides an implicit,  MATLAB-like, way of plotting.  It also opens figures on your screen, and acts as the figure GUI manager.<br>s
+
+### Import Matplotlib Package
+
+**Python Code** <br>
+```python
+# Selective import with local aliases
+# Import Matplotlib package pyplot function with an shortcut aliases
+import matplotlib.pyplot as plt
+
+```
+<br>
+
