@@ -378,3 +378,8 @@ import matplotlib.pyplot as plt
 ```
 <br>
 
+# References
+
+- [DataCamp](https://app.datacamp.com/learn/) 
+- [W3Schools](https://www.w3schools.com/python/) 
+- [Python.org](https://www.python.org)
