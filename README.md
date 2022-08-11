@@ -134,6 +134,38 @@ x = ["a", "b", "c", "d"]
 
 ## Python Dictionary
 
+In Python, dictionaries are similar to lists, but instead of being indexed by a range of numbers like Python lists, Python dictionaries are indexed by unique values called keys. But when should I use lists or dictionaries to store my data? When searching for data must be fast and if unique keys can be specified, a dictionary is preferable to lists. However, if you are looking to easily select a subset of your data, or when the order of the elements matters, you should prefer lists. A dictionary, like a list, can be composed of multiple dictionaries (dictionary of dictionaries).<br>
+
+The basic syntax to create a dictionary is the following:
+
+Example:<br> 
+
+**Python Code** <br>
+```python
+# Basic syntax
+dictionary = { "key1":"value", "key2":"value"}
+
+# Dictionary
+europe = {'Spain':'Madrid', 
+          'France':'Paris', 
+          'Germany':'Berlin', 
+          'Norway':'Oslo' }
+
+# Dictionary of dictionaries
+europe = { 'Spain': { 'capital':'Madrid', 'population':46.77 },
+           'France': { 'capital':'Paris', 'population':66.03 },
+           'Germany': { 'capital':'Berlin', 'population':80.62 },
+           'Norway': { 'capital':'Oslo', 'population':5.084 } }
+```
+<br>
+
+| Command                   | Action  | Explanation                           |
+|---------------------------|---------|---------------------------------------|
+| europe['Italy'] = 'Milan' | Add     | Add key-value pair to dictionary      |
+| europe['Italy'] = 'Rome'  | Modify  | Modify the value of a key-value pair  |
+| print('Italy' in europe)  | Confirm | Assert the addition of key-value pair |
+| del(europe['Italy'])      | Delete  | Delete key-value pair from dictionary |
+<br>
 
 ## Python Functions
 
@@ -281,6 +313,7 @@ List of Python built-in functions.<br>
 <br>
 
 ### Dictionary Methods
+
 | Method       | Description                                                                                                 |
 |--------------|-------------------------------------------------------------------------------------------------------------|
 | clear()      | Removes all the elements from the dictionary                                                                |
