@@ -462,7 +462,7 @@ import pandas as pd
 
 ## Matplotlib
 
- *matplotlib.pyplot* is a state-based interface to matplotlib. It provides an implicit,  MATLAB-like, way of plotting.  It also opens figures on your screen, and acts as the figure GUI manager.<br>
+ *matplotlib* is an object-oriented plotting library. *matplotlib.pyplot* is a state-based interface to matplotlib. It provides an implicit,  MATLAB-like, way of plotting.  It also opens figures on your screen, and acts as the figure GUI manager.<br>
 
 ### Import Matplotlib Package
 
