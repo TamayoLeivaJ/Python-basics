@@ -244,6 +244,9 @@ List of Python built-in functions.<br>
 
 ## Python Methods
 
+> **Note** <br>
+> The dot notation allows you to access the properties of a Python object. To use dot notation, you must specify the object by its name, followed by a dot (.), followed by the method name. The methods you can apply to an object will depend on the type of object.
+
 ### String Methods
 
 | Method         | Description                                                                                   |
