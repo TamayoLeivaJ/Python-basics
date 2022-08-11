@@ -365,14 +365,20 @@ pip install --upgrade numpy
 sudo apt install python3-pip
 
 ## 2) Then with pip instaled install required packages
-## Install numpy package
+## Install numpy, pandas, matplotlib packages
 pip3 install numpy
+pip3 install pandas
+pip3 install matplotlib
 
 ## 3) Verify packages instalation 
 pip3 show numpy
+pip3 show pandas
+pip3 show matplotlib
 
 ## 4) Update package (if necessary)
 pip3 install --upgrade numpy
+pip3 install --upgrade pandas
+pip3 install --upgrade matplotlib
 
 ```
 <br>
@@ -407,6 +413,19 @@ Numpy package provides<br>
 
 The NumPy array is a new Python type, an alternative to the Python list, that is faster and capable of performing operations on arrays more easily than on lists. The NumPy array comes with its own methods, which may behave differently from the methods of other types. But the NumPy array can only contain values of a single type, while a Python list can contain different types of data. If elements of different types are included, Numpy array will transform those elements to end up with an array of homogeneous type, this is also known as **type coercion**. In this type coercion, for example, the bool type value **True** becomes 1, and the bool type value **False** becomes 0, if coerced to a numeric array.<br>
 
+Features
+- Easy handling of missing data in floating point as well as non-floating point data.<br>
+- Size mutability: columns can be inserted and deleted from DataFrame and higher dimensional objects.<br>
+- Automatic and explicit data alignment: objects can be explicitly aligned to a set of labels, or the user can simply ignore the labels and let 'Series', 'DataFrame', etc. automatically align the data for you in computations.<br>
+- Powerful, flexible group by functionality to perform split-apply-combine operations on data sets, for both aggregating and transforming data.<br>
+- Make it easy to convert ragged, differently-indexed data in other Python and NumPy data structures into DataFrame objects.<br>
+- Intelligent label-based slicing, fancy indexing, and subsetting of large data sets.<br>
+- Intuitive merging and joining data sets.<br>
+- Flexible reshaping and pivoting of data sets.<br>
+- Hierarchical labeling of axes (possible to have multiple labels per tick).<br>
+- Robust IO tools for loading data from flat files (CSV and delimited), Excel files, databases, and saving/loading data from the ultrafast HDF5 format.<br>
+- Time series-specific functionality: date range generation and frequency conversion, moving window statistics, date shifting and lagging.<br><br>
+
 ### Import NumPy Package
 
 **Python Code** <br>
@@ -414,6 +433,21 @@ The NumPy array is a new Python type, an alternative to the Python list, that is
 # General imports with local aliases
 # Import complete numpy package functions with an shortcut aliases
 import numpy as np
+
+```
+<br>
+
+## Pandas 
+
+*pandas* is a Python package providing fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, **real world** data analysis in Python. Additionally, it has the broader goal of becoming **the most powerful and flexible open source data analysis / manipulation tool available in any language**. It is already well on its way toward this goal.<br>
+
+### Import Pandas Package
+
+**Python Code** <br>
+```python
+# Selective import with local aliases
+# Import Pandas package functions with an shortcut aliases
+import pandas as pd
 
 ```
 <br>
@@ -432,6 +466,8 @@ import matplotlib.pyplot as plt
 
 ```
 <br>
+
+
 
 # References
 
