@@ -9,7 +9,7 @@ Python is an object-oriented programming (OOP) language, and its standard implem
 | int | integer: a number without a fractional part. | Numeric | 100 | int() |
 | float | floating point: a number that has both an integer <br>and fractional part, separated by a point. | Numeric | 1.1 | float() |
 | str | string: a type to represent text. | Text | string, text | str() |
-| bool | boolean: a type to represent logical values.<br>Can only be True or False (**Capital are important**).<br> Are also a special kind of integer: True corresponds to 1, False corresponds to 0 | Boolean | True; False | bool() |
+| bool | boolean: a type to represent logical values.<br>Can only be True or False (**Capital are important**).<br> It is also a special type of integer where True corresponds to 1, False corresponds to 0 | Boolean | True; False | bool() |
 <br>
 
 > **Note** <br>
